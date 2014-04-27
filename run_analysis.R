@@ -103,4 +103,4 @@ data$activity <- activity
 ## average each variable in data for each activity and each subject.
 
 tidy <- aggregate(. ~ subj + activity, data = data, FUN= mean,na.rm=TRUE )
-write.csv(tidy,file='../tidyData/smartphone.csv')
+write.csv(tidy,file='../tidyData/smartphone.txt')
