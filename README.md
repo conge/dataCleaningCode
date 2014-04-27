@@ -63,18 +63,18 @@ The script **run_analysis.R** read in all the trainning and testing data from th
 
 Please note that since all the data in **smartphone.csv** were group average for each activity and each subject, I did not include "avg" or "mean" as part of the variable names. The "mean" or "avg" in the does not imply the group averaging process. for details, see below.
 
-subj
-  subjectID
+subj  
+  subjectID  
     1 ~ 30: id of 30 subjects
 
-activity
-  activity type
-    WALKING
-    WALKING_UPSTAIRS
-    WALKING_DOWNSTAIRS
-    SITTING
-    STANDING
-    LAYING
+activity  
+  activity type  
+    - WALKING
+    - WALKING_UPSTAIRS
+    - WALKING_DOWNSTAIRS
+    - SITTING
+    - STANDING
+    - LAYING
 
 Sensor measurements
 
@@ -90,8 +90,8 @@ Sensor measurements
 
 - 'body_gyro_x_sd': The SD angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-V1-V561
-  features
+V1-V561  
+  features  
 There are 561 feathures generated fro the data set. The feature labels are below. see **Feature selection** section below for more details.  
 
 - 1 tBodyAcc-mean()-X
